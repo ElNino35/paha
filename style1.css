@@ -1,0 +1,96 @@
+/* Estils generals */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #ffcc00;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #000;
+}
+
+/* Selector de elementos a través de la clase */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+h2 {
+    color: #ff6600;
+}
+
+h3 {
+    color: #ff3300;
+}
+
+/* Estils per llistes */
+ul {
+    list-style-type: square;
+    margin: 10px 0;
+}
+
+ol {
+    list-style-type: decimal;
+    margin: 10px 0;
+}
+
+/* Selector de elemento + siguiente elemento */
+img + img {
+    margin-top: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+
+/* Estils per enllaços */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estils per al footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Selector de clase específica */
+footer .container {
+    padding: 20px;
+}
+
+/* Selector de elemento + elemento */
+h1 + h2 {
+    color: #ff6600;
+}
